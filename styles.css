@@ -1,0 +1,39 @@
+.full-width {
+  background-color:black;
+}
+
+.footer-nav {
+  min-height:80px;
+  width:100%;
+  margin:0 auto;
+}
+
+.footer-nav-left {
+  background-color:gray;
+  min-height:80px;
+  position:relative;
+  float:left;
+  color:#FFFFFF;
+  z-index:1001;
+}
+
+.footer-nav-left:before {
+  content:'';
+  line-height:0;
+  font-size:0;
+  width:0;
+  height:0;
+  border-top:80px solid gray;
+  border-bottom:0px solid transparent;
+  border-left:0px solid transparent;
+  border-right:80px solid transparent;
+  position:absolute;
+  top:0;
+  right:-80px;
+}
+
+.footer-nav-left p {
+  margin-top:30px;
+  font-size:15px;
+  margin-left:80px;
+}
