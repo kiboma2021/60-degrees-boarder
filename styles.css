@@ -14,21 +14,14 @@
   position:relative;
   float:left;
   color:#FFFFFF;
-  z-index:1001;
+ 
 }
 
 .footer-nav-left:before {
   content:'';
-  line-height:0;
-  font-size:0;
-  width:0;
-  height:0;
   border-top:80px solid gray;
-  border-bottom:0px solid transparent;
-  border-left:0px solid transparent;
   border-right:80px solid transparent;
   position:absolute;
-  top:0;
   right:-80px;
 }
 
